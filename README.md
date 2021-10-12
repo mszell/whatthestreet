@@ -1,10 +1,5 @@
 # What the Street!?
 
-| PROD                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------- |
-| ![Build Status](https://bamboo.intapps.it/plugins/servlet/wittified/build-status/LAB-LABBEATTHETRAFFICWEBSITE) |
-| ![prod Deployment](https://bamboo.intapps.it/plugins/servlet/wittified/deploy-status/95978085)                 |
-
 **Part 2: Front & Backend**
 
 ![screen shot 2017-06-27 at 19 11 42](https://user-images.githubusercontent.com/533590/27597962-b001f55c-5b6c-11e7-97e4-d3fef2033637.png)
