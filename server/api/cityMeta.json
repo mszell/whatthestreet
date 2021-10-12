@@ -1,0 +1,3132 @@
+{
+  "beijing": {
+    "onStreetParkingSpots": 0,
+    "name": "Beijing",
+    "sources": {
+      "cars": "https://www.lta.gov.sg/ltaacademy/doc/13Sep105-Pan_KeyTransportStatistics.pdf",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "China",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 52116.62,
+          "name": "北清路",
+          "id": 224
+        },
+        {
+          "length": 42922.89,
+          "name": "南中轴路",
+          "id": 891
+        },
+        {
+          "length": 33653.25,
+          "name": "朝阳北路",
+          "id": 1155
+        },
+        {
+          "length": 28324.9,
+          "name": "建国路",
+          "id": 367
+        },
+        {
+          "length": 28202.39,
+          "name": "左堤路",
+          "id": 340
+        },
+        {
+          "length": 26341.35,
+          "name": "复兴路",
+          "id": 279
+        },
+        {
+          "length": 24082.65,
+          "name": "朝阳路",
+          "id": 433
+        },
+        {
+          "length": 24037.68,
+          "name": "安立路",
+          "id": 310
+        },
+        {
+          "length": 23565.13,
+          "name": "京开高速辅路",
+          "id": 2097
+        },
+        {
+          "length": 23507.28,
+          "name": "旱河路",
+          "id": 415
+        }
+      ],
+      "longestNames": [
+        "三里河南六巷南侧路",
+        "鹫峰园内盘山公路",
+        "测试一下创建道路"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.21,
+      "car": 0.21,
+      "bike": 0.32,
+      "public": 0.26
+    },
+    "landmark": {
+      "name": "Forbidden City",
+      "area": 983078
+    },
+    "moving": {
+      "car": {
+        "length": 5011870,
+        "svgHeight": 39199,
+        "area": 24827914
+      },
+      "bike": {
+        "length": 265447,
+        "svgHeight": 1947,
+        "area": 1324051
+      },
+      "rail": {
+        "length": 1711041,
+        "svgHeight": 10910,
+        "area": 8079483
+      }
+    },
+    "cars": 1663760,
+    "boundingBox": [
+      39.6896,
+      116.1058,
+      40.1224,
+      116.67
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 423,
+          "svgHeight": 3207,
+          "area": 2177509.53
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 40,
+        "svgHeight": 38.82,
+        "area": 11286.89
+      },
+      "rail": {
+        "length": 651548,
+        "svgHeight": 5126,
+        "area": 3259962
+      }
+    },
+    "population": 11716620,
+    "space": {
+      "car": 27005423.53,
+      "bike": 1335337.89,
+      "rail": 11339445
+    }
+  },
+  "boston": {
+    "onStreetParkingSpots": 59925,
+    "name": "Boston",
+    "sources": {
+      "cars": "http://www.governing.com/gov-data/car-ownership-numbers-of-vehicles-by-city-map.html",
+      "onStreetParkingSpots": "http://www.cityofboston.gov/TRANSPORTATION/accessboston/pdfs/front.pdf",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "USA",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 26963.47,
+          "name": "Washington Street",
+          "id": 3743
+        },
+        {
+          "length": 21950.07,
+          "name": "Commonwealth Avenue",
+          "id": 815
+        },
+        {
+          "length": 11583.54,
+          "name": "Blue Hill Avenue",
+          "id": 389
+        },
+        {
+          "length": 11477.58,
+          "name": "Centre Street",
+          "id": 661
+        },
+        {
+          "length": 10698.29,
+          "name": "Columbia Road",
+          "id": 802
+        },
+        {
+          "length": 9628.18,
+          "name": "Dorchester Avenue",
+          "id": 1062
+        },
+        {
+          "length": 9308.62,
+          "name": "Beacon Street",
+          "id": 291
+        },
+        {
+          "length": 8776.45,
+          "name": "River Street",
+          "id": 3048
+        },
+        {
+          "length": 8769.14,
+          "name": "American Legion Highway",
+          "id": 101
+        },
+        {
+          "length": 7939.89,
+          "name": "Hyde Park Avenue",
+          "id": 1890
+        }
+      ],
+      "longestNames": [
+        "South Station Bus Terminal Connector",
+        "Commonwealth Avenue Frontage Road Wb",
+        "West Roxbury Centre Street Rotary"
+      ],
+      "staffPicks": [
+        "Massachusetts Avenue",
+        "Boylston Street",
+        "Atlantic Avenue"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.14,
+      "car": 0.45,
+      "bike": 0.02,
+      "public": 0.35
+    },
+    "landmark": {
+      "name": "Boston Common",
+      "area": 194116
+    },
+    "moving": {
+      "car": {
+        "length": 1519467,
+        "svgHeight": 19534,
+        "area": 11585811
+      },
+      "bike": {
+        "length": 89058,
+        "svgHeight": 1030,
+        "area": 614864
+      },
+      "rail": {
+        "length": 264969,
+        "svgHeight": 2765,
+        "area": 1587998
+      }
+    },
+    "cars": 303604,
+    "boundingBox": [
+      42.2071592425,
+      -71.2120056152,
+      42.3969802856,
+      -70.8618164062
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 296,
+          "svgHeight": 1695,
+          "area": 1016707.35
+        },
+        "onStreet": {
+          "number": 0
+        }
+      },
+      "bike": {
+        "number": 43,
+        "svgHeight": 5,
+        "area": 649.6
+      },
+      "rail": {
+        "length": 76480,
+        "svgHeight": 661,
+        "area": 390748
+      }
+    },
+    "population": 645966,
+    "space": {
+      "car": 12602518.35,
+      "bike": 615513.6,
+      "rail": 1978746
+    }
+  },
+  "london": {
+    "onStreetParkingSpots": 0,
+    "name": "London",
+    "sources": {
+      "cars": "https://www.lta.gov.sg/ltaacademy/doc/13Sep105-Pan_KeyTransportStatistics.pdf",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "UK",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 31404.09,
+          "name": "Uxbridge Road",
+          "id": 33921
+        },
+        {
+          "length": 26798.77,
+          "name": "High Road",
+          "id": 16458
+        },
+        {
+          "length": 20309.95,
+          "name": "Green Lane",
+          "id": 14480
+        },
+        {
+          "length": 16513.52,
+          "name": "The Ridgeway",
+          "id": 32669
+        },
+        {
+          "length": 14176.96,
+          "name": "Harrow Road",
+          "id": 15516
+        },
+        {
+          "length": 12892.99,
+          "name": "Forest Road",
+          "id": 12703
+        },
+        {
+          "length": 11684.41,
+          "name": "Main Road",
+          "id": 21066
+        },
+        {
+          "length": 11383.26,
+          "name": "Long Lane",
+          "id": 20453
+        },
+        {
+          "length": 10967.1,
+          "name": "Richmond Road",
+          "id": 27481
+        },
+        {
+          "length": 10950.26,
+          "name": "Wood Lane",
+          "id": 36215
+        }
+      ],
+      "longestNames": [
+        "Eastern Gateway Grade Separation Bridge",
+        "Western Perimeter Road Roundabout",
+        "Edgware Road West Hendon Broadway"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.21,
+      "car": 0.34,
+      "bike": 0.02,
+      "public": 0.44
+    },
+    "landmark": {
+      "name": "Hyde Park",
+      "area": 2638718
+    },
+    "moving": {
+      "car": {
+        "length": 14079774,
+        "svgHeight": 142241,
+        "area": 66282739
+      },
+      "bike": {
+        "length": 786731,
+        "svgHeight": 9656,
+        "area": 4297797
+      },
+      "rail": {
+        "length": 3133119,
+        "svgHeight": 51827,
+        "area": 22227784
+      }
+    },
+    "cars": 2645570,
+    "boundingBox": [
+      51.2868,
+      -0.5103,
+      51.6923,
+      0.334
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 5699,
+          "svgHeight": 25822,
+          "area": 11001870.06
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 4124,
+        "svgHeight": 401.75,
+        "area": 60962.17
+      },
+      "rail": {
+        "length": 695250,
+        "svgHeight": 8375,
+        "area": 3557167
+      }
+    },
+    "population": 8674000,
+    "space": {
+      "car": 77284609.06,
+      "bike": 4358759.17,
+      "rail": 25784951
+    }
+  },
+  "amsterdam": {
+    "onStreetParkingSpots": 265225,
+    "name": "Amsterdam",
+    "sources": {
+      "onStreetParkingSpots": "http://dirkmjk.nl/nl/2016/06/amsterdam-heeft-ruimte-voor-nog-eens-21-miljoen-fietsenrekken",
+      "cars": "http://www.nationmaster.com/country-info/stats/Transport/Passenger-cars/Per-1,000-people",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Netherlands",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 16054.46,
+          "name": "Haarlemmerweg",
+          "id": 1368
+        },
+        {
+          "length": 14253.64,
+          "name": "Westpoortweg",
+          "id": 3956
+        },
+        {
+          "length": 7975.33,
+          "name": "Nieuwe Hemweg",
+          "id": 2590
+        },
+        {
+          "length": 7883.05,
+          "name": "IJdoornlaan",
+          "id": 1604
+        },
+        {
+          "length": 7646.64,
+          "name": "IJburglaan",
+          "id": 1601
+        },
+        {
+          "length": 7567.63,
+          "name": "Bijlmerdreef",
+          "id": 390
+        },
+        {
+          "length": 7516.21,
+          "name": "Zuiderzeeweg",
+          "id": 4144
+        },
+        {
+          "length": 7397.9,
+          "name": "Basisweg",
+          "id": 305
+        },
+        {
+          "length": 7335.37,
+          "name": "Middenweg",
+          "id": 2460
+        },
+        {
+          "length": 6981.98,
+          "name": "Ookmeerweg",
+          "id": 2704
+        }
+      ],
+      "longestNames": [
+        "Baron Schimmelpenninck van der Oyeweg",
+        "Marius van Bouwdijk Bastiaansestraat",
+        "Van Suchtelen van de Haarestraat"
+      ],
+      "staffPicks": [
+        "Amstel",
+        "Slaperssteeg",
+        "Beethovenstraat"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.04,
+      "car": 0.27,
+      "bike": 0.4,
+      "public": 0.29
+    },
+    "landmark": {
+      "name": "Vondelpark",
+      "area": 487838
+    },
+    "moving": {
+      "car": {
+        "length": 1809210,
+        "svgHeight": 18271,
+        "area": 7656989
+      },
+      "bike": {
+        "length": 824994,
+        "svgHeight": 6970,
+        "area": 3121326
+      },
+      "rail": {
+        "length": 483715,
+        "svgHeight": 7541,
+        "area": 3181414
+      }
+    },
+    "cars": 344184,
+    "boundingBox": [
+      52.3216,
+      4.7685,
+      52.4251,
+      5.0173
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 683,
+          "svgHeight": 3715,
+          "area": 1554865.52
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 227,
+        "svgHeight": 106.19,
+        "area": 29590.42
+      },
+      "rail": {
+        "length": 142827,
+        "svgHeight": 1756,
+        "area": 734370
+      }
+    },
+    "population": 779808,
+    "space": {
+      "car": 9211854.52,
+      "bike": 3150916.42,
+      "rail": 3915784
+    }
+  },
+  "portland": {
+    "onStreetParkingSpots": 0,
+    "name": "Portland",
+    "sources": {
+      "onStreetParkingSpots": "",
+      "cars": "http://www.governing.com/gov-data/car-ownership-numbers-of-vehicles-by-city-map.html",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "USA",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 18411.76,
+          "name": "East Burnside Street",
+          "id": 10
+        },
+        {
+          "length": 17584.21,
+          "name": "Southeast Foster Road",
+          "id": 1818
+        },
+        {
+          "length": 17328.78,
+          "name": "Northwest Skyline Boulevard",
+          "id": 1357
+        },
+        {
+          "length": 15828.3,
+          "name": "Southeast Powell Boulevard",
+          "id": 1972
+        },
+        {
+          "length": 14865.59,
+          "name": "Southeast Division Street",
+          "id": 1791
+        },
+        {
+          "length": 14317.73,
+          "name": "Northeast Sandy Boulevard",
+          "id": 943
+        },
+        {
+          "length": 13682.13,
+          "name": "North Interstate Avenue",
+          "id": 222
+        },
+        {
+          "length": 13532.46,
+          "name": "North Lombard Street",
+          "id": 262
+        },
+        {
+          "length": 13313.9,
+          "name": "Northeast Halsey Street",
+          "id": 819
+        },
+        {
+          "length": 13034.44,
+          "name": "Southeast Stark Street",
+          "id": 2015
+        }
+      ],
+      "longestNames": [
+        "Southwest United States Veterans Hospital Road",
+        "Northeast Martin Luther King, Junior Boulevard",
+        "Southeast Martin Luther King, Junior Boulevard"
+      ],
+      "staffPicks": [
+        "Southeast Yamhill Street",
+        "Northwest Skyline Boulevard",
+        "Southwest Terwilliger Boulevard"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.06,
+      "car": 0.7,
+      "bike": 0.06,
+      "public": 0.12
+    },
+    "landmark": {
+      "name": "Mount Tabor",
+      "area": 722920
+    },
+    "moving": {
+      "car": {
+        "length": 3595126,
+        "svgHeight": 50169,
+        "area": 27466350
+      },
+      "bike": {
+        "length": 1388120,
+        "svgHeight": 7119,
+        "area": 3902994
+      },
+      "rail": {
+        "length": 323646,
+        "svgHeight": 2910,
+        "area": 1584292
+      }
+    },
+    "cars": 469281,
+    "boundingBox": [
+      45.4325,
+      -122.8367,
+      45.6531,
+      -122.4721
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1628,
+          "svgHeight": 6016,
+          "area": 3256151.8
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 2239,
+        "svgHeight": 182.87,
+        "area": 15433.83
+      },
+      "rail": {
+        "length": 444624,
+        "svgHeight": 4218,
+        "area": 2309657
+      }
+    },
+    "population": 609456,
+    "space": {
+      "car": 30722501.8,
+      "bike": 3918427.83,
+      "rail": 3893949
+    }
+  },
+  "copenhagen": {
+    "onStreetParkingSpots": 2000,
+    "name": "Copenhagen",
+    "sources": {
+      "cars": "http://www.nationmaster.com/country-info/stats/Transport/Passenger-cars/Per-1,000-people",
+      "onStreetParkingSpots": "http://www.akershus.no/file/c112a084c81172d57c8dba94e41113cc/091217_Cph_Guide (2).pdf",
+      "modalsplit": "http://www.copenhagenize.com/2014/07/the-greatest-urban-experiment-right-now.html"
+    },
+    "areaParkingSpots": 1194750.2885362897,
+    "country": "Denmark",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 8087.7,
+          "name": "Ørestads Boulevard",
+          "id": 2683
+        },
+        {
+          "length": 7803.6,
+          "name": "Vejlands Allé",
+          "id": 2534
+        },
+        {
+          "length": 6982.82,
+          "name": "Frederikssundsvej",
+          "id": 644
+        },
+        {
+          "length": 6805.55,
+          "name": "Refshalevej",
+          "id": 1850
+        },
+        {
+          "length": 6421.31,
+          "name": "Roskildevej",
+          "id": 1906
+        },
+        {
+          "length": 6010.98,
+          "name": "Tagensvej",
+          "id": 2300
+        },
+        {
+          "length": 5781.72,
+          "name": "Jagtvej",
+          "id": 1089
+        },
+        {
+          "length": 5449.12,
+          "name": "Selinevej",
+          "id": 2013
+        },
+        {
+          "length": 5276.3,
+          "name": "Vigerslev Allé",
+          "id": 2578
+        },
+        {
+          "length": 5027.19,
+          "name": "Lyngbyvej",
+          "id": 1439
+        }
+      ],
+      "longestNames": [
+        "Borgmester Christiansens Gade",
+        "Hilmar Baunsgaards Boulevard",
+        "August Bournonvilles Passage"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.05,
+      "car": 0.23,
+      "bike": 0.45,
+      "public": 0.27
+    },
+    "landmark": {
+      "name": "Christiania",
+      "area": 518197
+    },
+    "moving": {
+      "car": {
+        "length": 1168899,
+        "svgHeight": 20793,
+        "area": 6747291
+      },
+      "bike": {
+        "length": 400586,
+        "svgHeight": 5039,
+        "area": 1673029
+      },
+      "rail": {
+        "length": 193311,
+        "svgHeight": 2831,
+        "area": 928864
+      }
+    },
+    "foundParkingSpots": 1161,
+    "cars": 208007,
+    "boundingBox": [
+      55.615,
+      12.4529,
+      55.7326,
+      12.6507
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1265,
+          "svgHeight": 3959,
+          "area": 1300246.11
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 978,
+        "svgHeight": 205.26,
+        "area": 45708.66
+      },
+      "rail": {
+        "length": 69528,
+        "svgHeight": 1056,
+        "area": 346023
+      }
+    },
+    "population": 562379,
+    "space": {
+      "car": 8047537.11,
+      "bike": 1718737.66,
+      "rail": 1274887
+    }
+  },
+  "chicago": {
+    "onStreetParkingSpots": 0,
+    "name": "Chicago",
+    "sources": {
+      "cars": "http://www.governing.com/gov-data/car-ownership-numbers-of-vehicles-by-city-map.html",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "USA",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 31246.19,
+          "name": "South Halsted Street",
+          "id": 1160
+        },
+        {
+          "length": 29323.97,
+          "name": "South State Street",
+          "id": 1400
+        },
+        {
+          "length": 28165.47,
+          "name": "South Doctor Martin Luther King Junior Drive",
+          "id": 1096
+        },
+        {
+          "length": 26226.75,
+          "name": "South Michigan Avenue",
+          "id": 1300
+        },
+        {
+          "length": 24746.62,
+          "name": "South Western Avenue",
+          "id": 1435
+        },
+        {
+          "length": 24631.62,
+          "name": "South Indiana Avenue",
+          "id": 1188
+        },
+        {
+          "length": 22116.36,
+          "name": "North Ashland Avenue",
+          "id": 426
+        },
+        {
+          "length": 21704.01,
+          "name": "South Wentworth Avenue",
+          "id": 1434
+        },
+        {
+          "length": 21560.06,
+          "name": "South Union Avenue",
+          "id": 1413
+        },
+        {
+          "length": 20952.22,
+          "name": "South Racine Avenue",
+          "id": 1361
+        }
+      ],
+      "longestNames": [
+        "South Doctor Martin Luther King Junior Drive",
+        "West Monsignor McElligott Avenue",
+        "Lower Lower East Randolph Street"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.07,
+      "car": 0.57,
+      "bike": 0.02,
+      "public": 0.28
+    },
+    "landmark": {
+      "name": "Millennium Park",
+      "area": 100314
+    },
+    "moving": {
+      "car": {
+        "length": 5923917,
+        "svgHeight": 73298,
+        "area": 47253792
+      },
+      "bike": {
+        "length": 653945,
+        "svgHeight": 4450,
+        "area": 2656699
+      },
+      "rail": {
+        "length": 1369131,
+        "svgHeight": 11466,
+        "area": 6978605
+      }
+    },
+    "cars": 1495450,
+    "boundingBox": [
+      41.6446,
+      -87.9395,
+      42.0229,
+      -87.5245
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 4379,
+          "svgHeight": 23527,
+          "area": 14619593.73
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 16,
+        "svgHeight": 205.26,
+        "area": 1265.21
+      },
+      "rail": {
+        "length": 987188,
+        "svgHeight": 8274,
+        "area": 5102996
+      }
+    },
+    "population": 2719000,
+    "space": {
+      "car": 61873385.730000004,
+      "bike": 2657964.21,
+      "rail": 12081601
+    }
+  },
+  "hongkong": {
+    "onStreetParkingSpots": 0,
+    "name": "Hong Kong",
+    "sources": {
+      "cars": "https://www.lta.gov.sg/ltaacademy/doc/13Sep105-Pan_KeyTransportStatistics.pdf",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://www.lta.gov.sg/ltaacademy/doc/J14Nov_p54ReferenceModeShares.pdf"
+    },
+    "country": "China",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 19666.87,
+          "name": "清水灣道 Clear Water Bay Road",
+          "id": 2653
+        },
+        {
+          "length": 14936.89,
+          "name": "汀角路 Ting Kok Road",
+          "id": 2079
+        },
+        {
+          "length": 14684.01,
+          "name": "嶼南道 South Lantau Road",
+          "id": 1907
+        },
+        {
+          "length": 14411.77,
+          "name": "西沙路 Sai Sha Road",
+          "id": 1672
+        },
+        {
+          "length": 13218.7,
+          "name": "蓮麻坑路 Lin Ma Hang Road",
+          "id": 2804
+        },
+        {
+          "length": 11938.02,
+          "name": "龍門路 Lung Mun Road",
+          "id": 1205
+        },
+        {
+          "length": 11599.18,
+          "name": "荃錦公路 Route Twisk",
+          "id": 2937
+        },
+        {
+          "length": 10977.28,
+          "name": "翔東路 Cheung Tung Road",
+          "id": 198
+        },
+        {
+          "length": 10515.87,
+          "name": "青山公路－葵涌段 Castle Peak Road – Kwai Chung",
+          "id": 3394
+        },
+        {
+          "length": 9729.69,
+          "name": "薄扶林道 Pok Fu Lam Road",
+          "id": 2920
+        }
+      ],
+      "longestNames": [
+        "將軍澳華人永遠墳場連接路 Tseung Kwan O Chinese Permanent Cemetery Road",
+        "將軍澳華人永遠墳場通道 Junk Bay Chinese Permanent Cemetery access road",
+        "青衣西北交匯處 North West Tsing Yi Interchange"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.01,
+      "car": 0.18,
+      "bike": 0,
+      "public": 0.81
+    },
+    "landmark": {
+      "name": "Disney Land",
+      "area": 3272494
+    },
+    "moving": {
+      "car": {
+        "length": 2468219,
+        "svgHeight": 19495,
+        "area": 19359966
+      },
+      "bike": {
+        "length": 241093,
+        "svgHeight": 876,
+        "area": 870274
+      },
+      "rail": {
+        "length": 525748,
+        "svgHeight": 2696,
+        "area": 2443926
+      }
+    },
+    "cars": 455000,
+    "boundingBox": [
+      22.1942,
+      114.1163,
+      22.2952,
+      114.2614
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 711,
+          "svgHeight": 1992,
+          "area": 1793753.56
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 150,
+        "svgHeight": 60.91,
+        "area": 30913.32
+      },
+      "rail": {
+        "length": 108666,
+        "svgHeight": 571,
+        "area": 504037
+      }
+    },
+    "population": 7188000,
+    "space": {
+      "car": 21153719.56,
+      "bike": 901187.32,
+      "rail": 2947963
+    }
+  },
+  "johannesburg": {
+    "onStreetParkingSpots": 0,
+    "name": "Johannesburg",
+    "sources": {
+      "cars": "http://www.nationmaster.com/country-info/stats/Transport/Passenger-cars/Per-1,000-people",
+      "onStreetParkingSpots": "",
+      "modalsplit": "http://www.brtdata.org/indicators/systems/modal_split__public_transport"
+    },
+    "country": "South Africa",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 53447.6,
+          "name": "Golden Highway",
+          "id": 2836
+        },
+        {
+          "length": 41346.68,
+          "name": "William Nicol Drive",
+          "id": 8620
+        },
+        {
+          "length": 39618.68,
+          "name": "Ontdekkers Road",
+          "id": 5934
+        },
+        {
+          "length": 36332.54,
+          "name": "Main Reef Road",
+          "id": 4643
+        },
+        {
+          "length": 35453.25,
+          "name": "Malibongwe Drive",
+          "id": 4707
+        },
+        {
+          "length": 33593.8,
+          "name": "Kliprivier Road",
+          "id": 3966
+        },
+        {
+          "length": 31374.93,
+          "name": "Beyers Naude Drive",
+          "id": 850
+        },
+        {
+          "length": 23542.18,
+          "name": "Republic Road",
+          "id": 6634
+        },
+        {
+          "length": 23518.97,
+          "name": "3rd Avenue",
+          "id": 63
+        },
+        {
+          "length": 22631.25,
+          "name": "Jan Smuts Avenue",
+          "id": 3537
+        }
+      ],
+      "longestNames": [
+        "Reverend Frederick S. Modise Drive",
+        "Central African Republic Avenue",
+        "Wits West Campus internal road"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0,
+      "car": 0,
+      "bike": 0,
+      "public": 0.32
+    },
+    "landmark": {
+      "name": "Botanical Gardens",
+      "area": 981647
+    },
+    "moving": {
+      "car": {
+        "length": 6880529,
+        "svgHeight": 58767,
+        "area": 54869864
+      },
+      "bike": {
+        "length": 66827,
+        "svgHeight": 391,
+        "area": 311979
+      },
+      "rail": {
+        "length": 375697,
+        "svgHeight": 2326,
+        "area": 1953569
+      }
+    },
+    "cars": 478315,
+    "boundingBox": [
+      -26.3271,
+      27.8927,
+      -26.0298,
+      28.248
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 602,
+          "svgHeight": 4487,
+          "area": 3749097.91
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 0,
+        "svgHeight": 0,
+        "area": 0
+      },
+      "rail": {
+        "length": 153043,
+        "svgHeight": 963,
+        "area": 795879
+      }
+    },
+    "population": 4435000,
+    "space": {
+      "car": 58618961.91,
+      "bike": 311979,
+      "rail": 2749448
+    }
+  },
+  "vienna": {
+    "onStreetParkingSpots": 120000,
+    "name": "Vienna",
+    "sources": {
+      "cars": "https://www.wien.gv.at/statistik/verkehr-wohnen/kfz/",
+      "onStreetParkingSpots": "https://www.wien.gv.at/verkehr/parken/entwicklung/kennzahlen.html",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Austria",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 15140.21,
+          "name": "Höhenstraße",
+          "id": 2254
+        },
+        {
+          "length": 14973.56,
+          "name": "Wagramer Straße",
+          "id": 5463
+        },
+        {
+          "length": 13168.84,
+          "name": "Brünner Straße",
+          "id": 657
+        },
+        {
+          "length": 12824.92,
+          "name": "Laxenburger Straße",
+          "id": 3019
+        },
+        {
+          "length": 12758.29,
+          "name": "Breitenfurter Straße",
+          "id": 608
+        },
+        {
+          "length": 11035.25,
+          "name": "Heiligenstädter Straße",
+          "id": 1997
+        },
+        {
+          "length": 10376.21,
+          "name": "Altmannsdorfer Straße",
+          "id": 122
+        },
+        {
+          "length": 10361.89,
+          "name": "Blätterstraße",
+          "id": 555
+        },
+        {
+          "length": 9388.77,
+          "name": "Prager Straße",
+          "id": 4054
+        },
+        {
+          "length": 9377.46,
+          "name": "Erzherzog-Karl-Straße",
+          "id": 1170
+        }
+      ],
+      "longestNames": [
+        "Friedrich-Wilhelm-Raiffeisen-Platz",
+        "Walther-von-der-Vogelweide-Gasse",
+        "Gertrude-Fröhlich-Sandner-Straße"
+      ],
+      "staffPicks": [
+        "Höhenstraße",
+        "Cobenzlgasse",
+        "Gaußplatz"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.26,
+      "car": 0.28,
+      "bike": 0.07,
+      "public": 0.39
+    },
+    "landmark": {
+      "name": "Schlosspark Schönbrunn",
+      "area": 1603937
+    },
+    "moving": {
+      "car": {
+        "length": 2892280,
+        "svgHeight": 26357,
+        "area": 12638033
+      },
+      "bike": {
+        "length": 554833,
+        "svgHeight": 4821,
+        "area": 2481023
+      },
+      "rail": {
+        "length": 963027,
+        "svgHeight": 7680,
+        "area": 3625591
+      }
+    },
+    "cars": 844911,
+    "boundingBox": [
+      48.109723627,
+      16.1595153809,
+      48.3316042807,
+      16.5934753418
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1749,
+          "svgHeight": 6987,
+          "area": 3246050.9
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 1215,
+        "svgHeight": 156.32,
+        "area": 26755.39
+      },
+      "rail": {
+        "length": 620946,
+        "svgHeight": 6587,
+        "area": 3074550
+      }
+    },
+    "population": 1741000,
+    "space": {
+      "car": 15884083.9,
+      "bike": 2507778.39,
+      "rail": 6700141
+    }
+  },
+  "losangeles": {
+    "onStreetParkingSpots": 0,
+    "name": "Los Angeles",
+    "sources": {
+      "cars": "http://www.governing.com/gov-data/car-ownership-numbers-of-vehicles-by-city-map.html",
+      "onStreetParkingSpots": "http://la.streetsblog.org/2010/12/13/density-car-ownership-and-what-it-means-for-the-future-of-los-angeles/",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "USA",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 40139.08,
+          "name": "Mulholland Drive",
+          "id": 5933
+        },
+        {
+          "length": 39362.36,
+          "name": "Sherman Way",
+          "id": 7877
+        },
+        {
+          "length": 37019.8,
+          "name": "Sepulveda Boulevard",
+          "id": 7786
+        },
+        {
+          "length": 32792.66,
+          "name": "Victory Boulevard",
+          "id": 9155
+        },
+        {
+          "length": 32401.48,
+          "name": "Venice Boulevard",
+          "id": 9058
+        },
+        {
+          "length": 30146.81,
+          "name": "San Fernando Road",
+          "id": 7614
+        },
+        {
+          "length": 28207.17,
+          "name": "Vanowen Street",
+          "id": 9030
+        },
+        {
+          "length": 27659.02,
+          "name": "Roscoe Boulevard",
+          "id": 7438
+        },
+        {
+          "length": 27651.02,
+          "name": "Burbank Boulevard",
+          "id": 1296
+        },
+        {
+          "length": 27538.26,
+          "name": "Ventura Boulevard",
+          "id": 9062
+        }
+      ],
+      "longestNames": [
+        "East Martin Luther King Jr Boulevard",
+        "West Martin Luther King Jr Boulevard",
+        "West General Thaddeus Kosciuszko Way"
+      ],
+      "staffPicks": [
+        "Mount Hollywood Drive",
+        "Mulholland Drive",
+        "Vista del Valle Drive"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.03,
+      "car": 0.78,
+      "bike": 0.01,
+      "public": 0.11
+    },
+    "landmark": {
+      "name": "LAX",
+      "area": 10304836
+    },
+    "moving": {
+      "car": {
+        "length": 11471929,
+        "svgHeight": 140545,
+        "area": 104220271
+      },
+      "bike": {
+        "length": 348146,
+        "svgHeight": 4241,
+        "area": 3024031
+      },
+      "rail": {
+        "length": 483137,
+        "svgHeight": 3264,
+        "area": 2672744
+      }
+    },
+    "cars": 2718800,
+    "boundingBox": [
+      33.6934949565,
+      -118.6798095703,
+      34.3513728973,
+      -118.123626709
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 2731,
+          "svgHeight": 14180,
+          "area": 10718240.39
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 94,
+        "svgHeight": 12.67,
+        "area": 2139.04
+      },
+      "rail": {
+        "length": 375456,
+        "svgHeight": 2541,
+        "area": 1943139
+      }
+    },
+    "population": 3884000,
+    "space": {
+      "car": 114938511.39,
+      "bike": 3026170.04,
+      "rail": 4615883
+    }
+  },
+  "singapore": {
+    "onStreetParkingSpots": 0,
+    "name": "Singapore",
+    "sources": {
+      "cars": "https://www.lta.gov.sg/ltaacademy/doc/13Sep105-Pan_KeyTransportStatistics.pdf",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Singapore",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 20482.55,
+          "name": "Jurong Pier Road",
+          "id": 1710
+        },
+        {
+          "length": 20158.2,
+          "name": "Yio Chu Kang Road",
+          "id": 3820
+        },
+        {
+          "length": 18684.27,
+          "name": "Bedok Reservoir Road",
+          "id": 184
+        },
+        {
+          "length": 17817.64,
+          "name": "Pioneer Road",
+          "id": 2664
+        },
+        {
+          "length": 15705.99,
+          "name": "Boon Lay Way",
+          "id": 270
+        },
+        {
+          "length": 15603.16,
+          "name": "Sembawang Road",
+          "id": 2903
+        },
+        {
+          "length": 15361.01,
+          "name": "Tuas South Avenue 5",
+          "id": 3519
+        },
+        {
+          "length": 15217.09,
+          "name": "Woodlands Road",
+          "id": 3786
+        },
+        {
+          "length": 14834.13,
+          "name": "Changi Coast Road",
+          "id": 473
+        },
+        {
+          "length": 14810.9,
+          "name": "Upper Serangoon Road",
+          "id": 3604
+        }
+      ],
+      "longestNames": [
+        "Woodlands Industrial Park D Street 1",
+        "Woodlands Industrial Park D Street 2",
+        "Pasir Ris Coast Industrial Park 6"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.22,
+      "car": 0.33,
+      "bike": 0.01,
+      "public": 0.44
+    },
+    "landmark": {
+      "name": "Sentosa",
+      "area": 4744868
+    },
+    "moving": {
+      "car": {
+        "length": 3384385,
+        "svgHeight": 23247,
+        "area": 26849572
+      },
+      "bike": {
+        "length": 284979,
+        "svgHeight": 1263,
+        "area": 1274852
+      },
+      "rail": {
+        "length": 352682,
+        "svgHeight": 1392,
+        "area": 1397803
+      }
+    },
+    "cars": 545299,
+    "boundingBox": [
+      1.2605,
+      103.788,
+      1.4322,
+      103.8982
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1351,
+          "svgHeight": 4174,
+          "area": 4227709.77
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 26,
+        "svgHeight": 51.69,
+        "area": 4514.17
+      },
+      "rail": {
+        "length": 25664,
+        "svgHeight": 123,
+        "area": 110994
+      }
+    },
+    "population": 5399000,
+    "space": {
+      "car": 31077281.77,
+      "bike": 1279366.17,
+      "rail": 1508797
+    }
+  },
+  "newyork": {
+    "onStreetParkingSpots": 3900000,
+    "name": "New York City",
+    "sources": {
+      "cars": "http://www.nyc.gov/html/dot/downloads/pdf/mobility-report-2016-screen-optimized.pdf",
+      "onStreetParkingSpots": "http://www.streetsblog.org/2011/03/22/new-york-has-81875-metered-parking-spaces-and-millions-of-free-ones/",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "USA",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 52797.36,
+          "name": "Broadway",
+          "id": 1865
+        },
+        {
+          "length": 37940.2,
+          "name": "Linden Boulevard",
+          "id": 4920
+        },
+        {
+          "length": 36021.6,
+          "name": "Atlantic Avenue",
+          "id": 1113
+        },
+        {
+          "length": 32823.14,
+          "name": "Park Avenue",
+          "id": 5944
+        },
+        {
+          "length": 32569.17,
+          "name": "3rd Avenue",
+          "id": 527
+        },
+        {
+          "length": 30819.13,
+          "name": "Hylan Boulevard",
+          "id": 4414
+        },
+        {
+          "length": 28713.75,
+          "name": "Union Turnpike",
+          "id": 7480
+        },
+        {
+          "length": 27135.76,
+          "name": "Francis Lewis Boulevard",
+          "id": 3697
+        },
+        {
+          "length": 25214.63,
+          "name": "Ocean Parkway",
+          "id": 5783
+        },
+        {
+          "length": 23053.07,
+          "name": "Kings Highway",
+          "id": 4688
+        }
+      ],
+      "longestNames": [
+        "Whitestone Expressway South Service Road",
+        "Manhattan Bridge lower level (reversible)",
+        "Whitestone Expressway Service Road West"
+      ],
+      "staffPicks": [
+        "Broadway",
+        "Riverside Drive",
+        "Belt Parkway"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.1,
+      "car": 0.29,
+      "bike": 0.01,
+      "public": 0.55
+    },
+    "landmark": {
+      "name": "Central Park",
+      "area": 3504491
+    },
+    "moving": {
+      "car": {
+        "length": 9853851,
+        "svgHeight": 116936,
+        "area": 85734434
+      },
+      "bike": {
+        "length": 302807,
+        "svgHeight": 2682,
+        "area": 1781904
+      },
+      "rail": {
+        "length": 1304355,
+        "svgHeight": 8517,
+        "area": 6084096
+      }
+    },
+    "cars": 1879000,
+    "boundingBox": [
+      40.496044,
+      -74.255735,
+      40.915256,
+      -73.700272
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1435,
+          "svgHeight": 9758,
+          "area": 6438190.23
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 4636,
+        "svgHeight": 358.81,
+        "area": 25943.94
+      },
+      "rail": {
+        "length": 458764,
+        "svgHeight": 3030,
+        "area": 2211269
+      }
+    },
+    "population": 8406000,
+    "space": {
+      "car": 92172624.23,
+      "bike": 1807847.94,
+      "rail": 8295365
+    }
+  },
+  "moscow": {
+    "onStreetParkingSpots": 0,
+    "name": "Moscow",
+    "sources": {
+      "cars": "https://knoema.com/atlas/Russian-Federation/Moscow-Region/Personal-cars-per-1000-population",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Russia",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 51504.92,
+          "name": "Третье Транспортное кольцо",
+          "id": 1443
+        },
+        {
+          "length": 39876.35,
+          "name": "Варшавское шоссе",
+          "id": 2247
+        },
+        {
+          "length": 31904.52,
+          "name": "Ленинский проспект",
+          "id": 2180
+        },
+        {
+          "length": 23371.74,
+          "name": "Каширское шоссе",
+          "id": 2005
+        },
+        {
+          "length": 23210.69,
+          "name": "Волгоградский проспект",
+          "id": 3145
+        },
+        {
+          "length": 22743.92,
+          "name": "Ленинградский проспект",
+          "id": 3155
+        },
+        {
+          "length": 20836.42,
+          "name": "проспект Мира",
+          "id": 1765
+        },
+        {
+          "length": 20361.43,
+          "name": "Профсоюзная улица",
+          "id": 2594
+        },
+        {
+          "length": 20151.2,
+          "name": "шоссе Энтузиастов",
+          "id": 1250
+        },
+        {
+          "length": 19611.64,
+          "name": "Севастопольский проспект",
+          "id": 3336
+        }
+      ],
+      "longestNames": [
+        "Центральный проезд Хорошёвского Серебряного Бора",
+        "улица Линии Октябрьской Железной Дороги",
+        "Верхний Михайловский Поперечный проезд"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0,
+      "car": 0,
+      "bike": 0,
+      "public": 0
+    },
+    "landmark": {
+      "name": "Kolomenskoye Park",
+      "area": 2540243
+    },
+    "moving": {
+      "car": {
+        "length": 3941661,
+        "svgHeight": 84957,
+        "area": 28818885
+      },
+      "bike": {
+        "length": 156052,
+        "svgHeight": 1952,
+        "area": 699606
+      },
+      "rail": {
+        "length": 1904189,
+        "svgHeight": 22621,
+        "area": 8886518
+      }
+    },
+    "cars": 4014656,
+    "boundingBox": [
+      55.4907,
+      37.3193,
+      55.9576,
+      37.9676
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 5562,
+          "svgHeight": 26866,
+          "area": 9554779.18
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 281,
+        "svgHeight": 30.62,
+        "area": 3890.75
+      },
+      "rail": {
+        "length": 1372219,
+        "svgHeight": 20079,
+        "area": 7006434
+      }
+    },
+    "population": 11920000,
+    "space": {
+      "car": 38373664.18,
+      "bike": 703496.75,
+      "rail": 15892952
+    }
+  },
+  "berlin": {
+    "onStreetParkingSpots": 103210,
+    "name": "Berlin",
+    "sources": {
+      "cars": "http://www.visitberlin.de/en/article/facts-and-figures",
+      "onStreetParkingSpots": "http://www.stadtentwicklung.berlin.de/verkehr/politik_planung/strassen_kfz/parkraum/",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Germany",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 29593.14,
+          "name": "Landsberger Allee",
+          "id": 4601
+        },
+        {
+          "length": 23145.32,
+          "name": "Heerstraße",
+          "id": 3309
+        },
+        {
+          "length": 22757.77,
+          "name": "Berliner Straße",
+          "id": 957
+        },
+        {
+          "length": 22498.2,
+          "name": "Hauptstraße",
+          "id": 3275
+        },
+        {
+          "length": 21556.43,
+          "name": "Adlergestell",
+          "id": 30
+        },
+        {
+          "length": 20238.37,
+          "name": "Märkische Allee",
+          "id": 5399
+        },
+        {
+          "length": 15555.58,
+          "name": "Potsdamer Chaussee",
+          "id": 6096
+        },
+        {
+          "length": 15442.08,
+          "name": "Blumberger Damm",
+          "id": 1118
+        },
+        {
+          "length": 14271.46,
+          "name": "Köpenicker Straße",
+          "id": 4534
+        },
+        {
+          "length": 13701.49,
+          "name": "Allee der Kosmonauten",
+          "id": 110
+        }
+      ],
+      "longestNames": [
+        "Hohenschönhausener Rhinstraßenbrücke",
+        "Anneliese-und-Georg-Groscurth-Platz",
+        "Marie-Elisabeth-von-Humboldt-Straße"
+      ],
+      "staffpicks": [
+        "Adlergestell",
+        "Havelchaussee",
+        "Kurfürstendamm"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.29,
+      "car": 0.3,
+      "bike": 0.15,
+      "public": 0.26
+    },
+    "landmark": {
+      "name": "Tempelhofer Feld",
+      "area": 2412478
+    },
+    "moving": {
+      "car": {
+        "length": 6301867,
+        "svgHeight": 117681,
+        "area": 48154445
+      },
+      "bike": {
+        "length": 1276774,
+        "svgHeight": 10762,
+        "area": 4664543
+      },
+      "rail": {
+        "length": 1781531,
+        "svgHeight": 22535,
+        "area": 8290311
+      }
+    },
+    "cars": 1200000,
+    "boundingBox": [
+      52.33812,
+      13.0884,
+      52.675499,
+      13.76134
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 4917,
+          "svgHeight": 20584,
+          "area": 8156098.06
+        },
+        "onStreet": {
+          "number": 103210
+        }
+      },
+      "bike": {
+        "number": 1653,
+        "svgHeight": 242,
+        "area": 46532.7
+      },
+      "rail": {
+        "length": 550394,
+        "svgHeight": 7077,
+        "area": 2697359
+      }
+    },
+    "population": 3502000,
+    "space": {
+      "car": 56310543.06,
+      "bike": 4711075.7,
+      "rail": 10987670
+    }
+  },
+  "budapest": {
+    "onStreetParkingSpots": 0,
+    "name": "Budapest",
+    "sources": {
+      "cars": "https://www.ksh.hu/interaktiv/terkepek/mo/kozl_eng.html?mapid=ODE001",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Hungary",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 21683.47,
+          "name": "Üllői út",
+          "id": 6510
+        },
+        {
+          "length": 17235.4,
+          "name": "Váci út",
+          "id": 5996
+        },
+        {
+          "length": 15685.86,
+          "name": "Baross utca",
+          "id": 382
+        },
+        {
+          "length": 14133.78,
+          "name": "Kerepesi út",
+          "id": 2774
+        },
+        {
+          "length": 14006.77,
+          "name": "Kossuth Lajos utca",
+          "id": 3002
+        },
+        {
+          "length": 13826.05,
+          "name": "Nagykőrösi út",
+          "id": 3930
+        },
+        {
+          "length": 13133.27,
+          "name": "Ferihegyi repülőtérre vezető út",
+          "id": 1569
+        },
+        {
+          "length": 12282.21,
+          "name": "Gyömrői út",
+          "id": 1941
+        },
+        {
+          "length": 12043.49,
+          "name": "Balatoni út",
+          "id": 337
+        },
+        {
+          "length": 11867.25,
+          "name": "Pesti út",
+          "id": 4301
+        }
+      ],
+      "longestNames": [
+        "Valdemar és Nina Langlet rakpart",
+        "Ferihegyi repülőtérre vezető út",
+        "Árpád-házi Szent Erzsébet park"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.32,
+      "car": 0.2,
+      "bike": 0.01,
+      "public": 0.47
+    },
+    "landmark": {
+      "name": "Margit-sziget",
+      "area": 965356
+    },
+    "moving": {
+      "car": {
+        "length": 4285958,
+        "svgHeight": 43182,
+        "area": 20081637
+      },
+      "bike": {
+        "length": 197626,
+        "svgHeight": 1512,
+        "area": 750367
+      },
+      "rail": {
+        "length": 829069,
+        "svgHeight": 6830,
+        "area": 3344657
+      }
+    },
+    "cars": 589746,
+    "boundingBox": [
+      47.3515,
+      18.9251,
+      47.6134,
+      19.3339
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1509,
+          "svgHeight": 6693,
+          "area": 3289634.03
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 909,
+        "svgHeight": 100.99,
+        "area": 13471.14
+      },
+      "rail": {
+        "length": 593244,
+        "svgHeight": 5957,
+        "area": 2954534
+      }
+    },
+    "population": 1732000,
+    "space": {
+      "car": 23371271.03,
+      "bike": 763838.14,
+      "rail": 6299191
+    }
+  },
+  "sanfrancisco": {
+    "onStreetParkingSpots": 280000,
+    "name": "San Francisco",
+    "sources": {
+      "cars": "http://www.7x7.com/parking-quiz-answer-sf-cars-vs-parking-spaces-who-wins-1781011859.html",
+      "onStreetParkingSpots": "http://sf.streetsblog.org/2010/03/29/san-francisco-first-city-in-the-nation-to-count-its-parking-spaces/",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "USA",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 16174.38,
+          "name": "3rd Street",
+          "id": 55
+        },
+        {
+          "length": 15196.95,
+          "name": "Geary Boulevard",
+          "id": 751
+        },
+        {
+          "length": 15031.49,
+          "name": "Great Highway",
+          "id": 797
+        },
+        {
+          "length": 14106.67,
+          "name": "Alemany Boulevard",
+          "id": 98
+        },
+        {
+          "length": 12326.38,
+          "name": "Mission Street",
+          "id": 1221
+        },
+        {
+          "length": 11389.54,
+          "name": "Market Street",
+          "id": 1138
+        },
+        {
+          "length": 9104.04,
+          "name": "Lincoln Way",
+          "id": 1061
+        },
+        {
+          "length": 8914.6,
+          "name": "California Street",
+          "id": 334
+        },
+        {
+          "length": 8166.42,
+          "name": "Fulton Street",
+          "id": 728
+        },
+        {
+          "length": 8122.07,
+          "name": "Bayshore Boulevard",
+          "id": 212
+        }
+      ],
+      "longestNames": [
+        "North Lake Merced Hills Street",
+        "South Lake Merced Hills Street",
+        "Mission Bay Boulevard South"
+      ],
+      "staffPicks": [
+        "Lombard Street",
+        "Lincoln Boulevard",
+        "Doyle Drive"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.1,
+      "car": 0.46,
+      "bike": 0.03,
+      "public": 0.32
+    },
+    "landmark": {
+      "name": "Golden Gate Park",
+      "area": 4078865
+    },
+    "moving": {
+      "car": {
+        "length": 1747533,
+        "svgHeight": 22094,
+        "area": 13869831
+      },
+      "bike": {
+        "length": 69628,
+        "svgHeight": 833,
+        "area": 531475
+      },
+      "rail": {
+        "length": 189936,
+        "svgHeight": 1724,
+        "area": 1117488
+      }
+    },
+    "cars": 379898,
+    "boundingBox": [
+      37.604,
+      -123.0137,
+      37.8324,
+      -122.3549
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 666,
+          "svgHeight": 2546,
+          "area": 1644303.24
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 141,
+        "svgHeight": 13.86,
+        "area": 2079.75
+      },
+      "rail": {
+        "length": 31319,
+        "svgHeight": 260,
+        "area": 162014
+      }
+    },
+    "population": 837442,
+    "space": {
+      "car": 15514134.24,
+      "bike": 533554.75,
+      "rail": 1279502
+    }
+  },
+  "helsinki": {
+    "onStreetParkingSpots": 0,
+    "name": "Helsinki",
+    "sources": {
+      "cars": "https://en.wikipedia.org/wiki/Helsinki",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Finland",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 11691.45,
+          "name": "Vihdintie",
+          "id": 2925
+        },
+        {
+          "length": 10960.1,
+          "name": "Mannerheimintie",
+          "id": 1388
+        },
+        {
+          "length": 8400.04,
+          "name": "Hämeentie",
+          "id": 445
+        },
+        {
+          "length": 7225.14,
+          "name": "Itäväylä",
+          "id": 521
+        },
+        {
+          "length": 7104.26,
+          "name": "Viikintie",
+          "id": 2937
+        },
+        {
+          "length": 6483.77,
+          "name": "Malminkaari",
+          "id": 1382
+        },
+        {
+          "length": 6435.98,
+          "name": "Tattariharjuntie",
+          "id": 2557
+        },
+        {
+          "length": 6198.52,
+          "name": "Mäkelänkatu",
+          "id": 1542
+        },
+        {
+          "length": 6106.76,
+          "name": "Vuotie",
+          "id": 2997
+        },
+        {
+          "length": 5664.78,
+          "name": "Koskelantie",
+          "id": 954
+        }
+      ],
+      "longestNames": [
+        "Katariina Saksilaisen katu",
+        "Aleksanteri Nevskin katu",
+        "Henrik Lättiläisen katu"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.12,
+      "car": 0.41,
+      "bike": 0.06,
+      "public": 0.4
+    },
+    "landmark": {
+      "name": "Suomenlinna",
+      "area": 754512
+    },
+    "moving": {
+      "car": {
+        "length": 1249652,
+        "svgHeight": 28645,
+        "area": 7541439
+      },
+      "bike": {
+        "length": 1224652,
+        "svgHeight": 15772,
+        "area": 4091607
+      },
+      "rail": {
+        "length": 291432,
+        "svgHeight": 4602,
+        "area": 1281383
+      }
+    },
+    "cars": 233874,
+    "boundingBox": [
+      60.1301,
+      24.8312,
+      60.2893,
+      25.2022
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 3247,
+          "svgHeight": 9326,
+          "area": 2427001.99
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 148,
+        "svgHeight": 59.59,
+        "area": 8084.59
+      },
+      "rail": {
+        "length": 116798,
+        "svgHeight": 2305,
+        "area": 595005
+      }
+    },
+    "population": 599676,
+    "space": {
+      "car": 9968440.99,
+      "bike": 4099691.59,
+      "rail": 1876388
+    }
+  },
+  "jakarta": {
+    "onStreetParkingSpots": 0,
+    "name": "Jakarta",
+    "sources": {
+      "cars": "http://www.eria.org/RPR_FY2012_No.29_Chapter_2.pdf",
+      "onStreetParkingSpots": "",
+      "modalsplit": "http://www.brtdata.org/indicators/systems/modal_split__public_transport"
+    },
+    "country": "Indonesia",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 17754.67,
+          "name": "TransJakarta Busway Koridor 9",
+          "id": 8798
+        },
+        {
+          "length": 14513.06,
+          "name": "Jalan H.R. Rasuna Said",
+          "id": 2765
+        },
+        {
+          "length": 13194.62,
+          "name": "Jalan Inspeksi Kanal Timur",
+          "id": 2816
+        },
+        {
+          "length": 13106.25,
+          "name": "Jalan Panjang Raya",
+          "id": 3567
+        },
+        {
+          "length": 11879.66,
+          "name": "Jalan Raya Pasar Minggu",
+          "id": 3882
+        },
+        {
+          "length": 10609.85,
+          "name": "Jalan RS Fatmawati",
+          "id": 3825
+        },
+        {
+          "length": 10577.72,
+          "name": "Jalan I Gusti Ngurah Rai",
+          "id": 2807
+        },
+        {
+          "length": 10523.38,
+          "name": "Jalan Tubagus Angke",
+          "id": 4336
+        },
+        {
+          "length": 10111.41,
+          "name": "Jalan Benyamin Sueb",
+          "id": 2367
+        },
+        {
+          "length": 9913.62,
+          "name": "Jalan Gunung Sahari",
+          "id": 2717
+        }
+      ],
+      "longestNames": [
+        "Jalan Prof. Dr. Sudjono D Pusponegoro",
+        "",
+        ""
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0,
+      "car": 0,
+      "bike": 0,
+      "public": 0.36
+    },
+    "landmark": {
+      "name": "National Monument",
+      "area": 792440
+    },
+    "moving": {
+      "car": {
+        "length": 3998634,
+        "svgHeight": 63574,
+        "area": 19269460
+      },
+      "bike": {
+        "length": 10934,
+        "svgHeight": 228,
+        "area": 62263
+      },
+      "rail": {
+        "length": 178195,
+        "svgHeight": 2373,
+        "area": 730764
+      }
+    },
+    "cars": 2132976,
+    "boundingBox": [
+      -6.423,
+      106.5759,
+      -6.0892,
+      107.0426
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 245,
+          "svgHeight": 4487,
+          "area": 1366919.62
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 7,
+        "svgHeight": 1.59,
+        "area": 547.97
+      },
+      "rail": {
+        "length": 17651,
+        "svgHeight": 254,
+        "area": 73432
+      }
+    },
+    "population": 9608000,
+    "space": {
+      "car": 20636379.62,
+      "bike": 62810.97,
+      "rail": 804196
+    }
+  },
+  "tokyo": {
+    "onStreetParkingSpots": 246549,
+    "name": "Tokyo",
+    "sources": {
+      "cars": "https://www.lta.gov.sg/ltaacademy/doc/13Sep105-Pan_KeyTransportStatistics.pdf",
+      "onStreetParkingSpots": "http://www.toukei.metro.tokyo.jp/tnenkan/2012/tn12q3e004.htm",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Japan",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 106909.5,
+          "name": "環七通り",
+          "id": 1028
+        },
+        {
+          "length": 81572.4,
+          "name": "環八通り",
+          "id": 1029
+        },
+        {
+          "length": 58681.2,
+          "name": "明治通り",
+          "id": 929
+        },
+        {
+          "length": 55030.45,
+          "name": "青梅街道",
+          "id": 1161
+        },
+        {
+          "length": 40409.84,
+          "name": "五日市街道",
+          "id": 1388
+        },
+        {
+          "length": 37692.94,
+          "name": "山手通り",
+          "id": 835
+        },
+        {
+          "length": 34057.37,
+          "name": "新青梅街道",
+          "id": 1540
+        },
+        {
+          "length": 32106.05,
+          "name": "鎌倉街道",
+          "id": 1151
+        },
+        {
+          "length": 29924.67,
+          "name": "目白通り",
+          "id": 1040
+        },
+        {
+          "length": 28330.66,
+          "name": "町田街道",
+          "id": 1035
+        }
+      ],
+      "longestNames": [
+        "",
+        "",
+        ""
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.23,
+      "car": 0.12,
+      "bike": 0.14,
+      "public": 0.51
+    },
+    "landmark": {
+      "name": "Shinjuku Gyoen",
+      "area": 579911
+    },
+    "moving": {
+      "car": {
+        "length": 3247113,
+        "svgHeight": 27512,
+        "area": 17756107
+      },
+      "bike": {
+        "length": 340743,
+        "svgHeight": 1906,
+        "area": 1250608
+      },
+      "rail": {
+        "length": 2131263,
+        "svgHeight": 14804,
+        "area": 10448002
+      }
+    },
+    "cars": 2465220,
+    "boundingBox": [
+      35.5234,
+      139.5629,
+      35.8175,
+      139.919
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 6683,
+          "svgHeight": 9200,
+          "area": 5951035.54
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 523,
+        "svgHeight": 429.85,
+        "area": 197061.98
+      },
+      "rail": {
+        "length": 596560,
+        "svgHeight": 4216,
+        "area": 3012665
+      }
+    },
+    "population": 13620000,
+    "space": {
+      "car": 23707142.54,
+      "bike": 1447669.98,
+      "rail": 13460667
+    }
+  },
+  "barcelona": {
+    "onStreetParkingSpots": 0,
+    "name": "Barcelona",
+    "sources": {
+      "cars": "https://www.lta.gov.sg/ltaacademy/doc/13Sep105-Pan_KeyTransportStatistics.pdf",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Spain",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 13550.51,
+          "name": "Avinguda Meridiana",
+          "id": 10
+        },
+        {
+          "length": 12438.77,
+          "name": "Avinguda Diagonal",
+          "id": 5
+        },
+        {
+          "length": 9740.17,
+          "name": "Gran Via de les Corts Catalanes",
+          "id": 2066
+        },
+        {
+          "length": 9529.27,
+          "name": "Ronda del Port",
+          "id": 2391
+        },
+        {
+          "length": 8786.45,
+          "name": "Carretera de Sant Cugat",
+          "id": 2047
+        },
+        {
+          "length": 7473.35,
+          "name": "Ronda del Mig",
+          "id": 2390
+        },
+        {
+          "length": 7318.94,
+          "name": "Passeig de la Vall d'Hebron",
+          "id": 2250
+        },
+        {
+          "length": 6225.9,
+          "name": "Carretera de Sarrià a Vallvidrera i Les Planes",
+          "id": 2051
+        },
+        {
+          "length": 6069.6,
+          "name": "Carrer d'Aragó",
+          "id": 288
+        },
+        {
+          "length": 5897.99,
+          "name": "Carrer de la Lletra A",
+          "id": 1572
+        }
+      ],
+      "longestNames": [
+        "Avinguda del Santuari de Sant Josep de la Muntanya",
+        "Carretera Veïnal de Molins de Rei a Vallvidrera",
+        "Carretera de Sarrià a Vallvidrera i Les Planes"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.32,
+      "car": 0.27,
+      "bike": 0.02,
+      "public": 0.39
+    },
+    "landmark": {
+      "name": "La Barceloneta",
+      "area": 753769
+    },
+    "moving": {
+      "car": {
+        "length": 1148926,
+        "svgHeight": 11633,
+        "area": 6935096
+      },
+      "bike": {
+        "length": 142708,
+        "svgHeight": 952,
+        "area": 589602
+      },
+      "rail": {
+        "length": 306934,
+        "svgHeight": 2526,
+        "area": 1438550
+      }
+    },
+    "cars": 585000,
+    "boundingBox": [
+      41.3211,
+      2.0719,
+      41.4686,
+      2.2273
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 286,
+          "svgHeight": 1371,
+          "area": 848626.92
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 167,
+        "svgHeight": 21.93,
+        "area": 3281.37
+      },
+      "rail": {
+        "length": 94762,
+        "svgHeight": 710,
+        "area": 438561
+      }
+    },
+    "population": 1602000,
+    "space": {
+      "car": 7783722.92,
+      "bike": 592883.37,
+      "rail": 1877111
+    }
+  },
+  "stuttgart": {
+    "onStreetParkingSpots": 0,
+    "name": "Stuttgart",
+    "sources": {
+      "onStreetParkingSpots": "",
+      "cars": "http://www.stuttgarter-nachrichten.de/inhalt.rekord-bei-zulassungen-stuttgarter-fahren-mehr-aufs-auto-ab-als-je-zuvor.2962ab51-c57f-4b01-8fb2-a5a49f94b802.html",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Germany",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 9297.07,
+          "name": "Mittlere Filderstraße",
+          "id": 1835
+        },
+        {
+          "length": 8880.49,
+          "name": "Neckartalstraße",
+          "id": 1914
+        },
+        {
+          "length": 8880.46,
+          "name": "Heilbronner Straße",
+          "id": 1084
+        },
+        {
+          "length": 8252.2,
+          "name": "Böblinger Straße",
+          "id": 435
+        },
+        {
+          "length": 7195.72,
+          "name": "Augsburger Straße",
+          "id": 188
+        },
+        {
+          "length": 5780,
+          "name": "Solitudestraße",
+          "id": 2512
+        },
+        {
+          "length": 5557.33,
+          "name": "Löwentorstraße",
+          "id": 1730
+        },
+        {
+          "length": 5431.89,
+          "name": "Mercedesstraße",
+          "id": 1813
+        },
+        {
+          "length": 5431.3,
+          "name": "Nord-Süd-Straße",
+          "id": 1953
+        },
+        {
+          "length": 5084.47,
+          "name": "Schwieberdinger Straße",
+          "id": 2438
+        }
+      ],
+      "longestNames": [
+        "Strecke für Versuchsfahrzeuge",
+        "Richard-von-Weizsäcker-Planie",
+        "Johann-Heinrich-Strauß-Platz"
+      ],
+      "staffPicks": [
+        "Neue Weinsteige",
+        "Botnanger Straße",
+        "Hauptstätter Straße"
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.13,
+      "car": 0.51,
+      "bike": 0.04,
+      "public": 0.32
+    },
+    "landmark": {
+      "name": "Cannstatter Wasen",
+      "area": 351867
+    },
+    "moving": {
+      "car": {
+        "length": 1399216,
+        "svgHeight": 14981,
+        "area": 9078050
+      },
+      "bike": {
+        "length": 152836,
+        "svgHeight": 836,
+        "area": 488112
+      },
+      "rail": {
+        "length": 500785,
+        "svgHeight": 4396,
+        "area": 2441643
+      }
+    },
+    "cars": 348103,
+    "boundingBox": [
+      48.46,
+      8.79,
+      48.93,
+      9.5
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 1470,
+          "svgHeight": 3600,
+          "area": 2071356.74
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 474,
+        "svgHeight": 68.01,
+        "area": 12050.66
+      },
+      "rail": {
+        "length": 157191,
+        "svgHeight": 1403,
+        "area": 802522
+      }
+    },
+    "population": 597939,
+    "space": {
+      "car": 11149406.74,
+      "bike": 500162.66,
+      "rail": 3244165
+    }
+  },
+  "rome": {
+    "onStreetParkingSpots": 0,
+    "name": "Rome",
+    "sources": {
+      "cars": "https://en.wikipedia.org/wiki/Transport_in_Rome",
+      "onStreetParkingSpots": "",
+      "modalsplit": "https://en.wikipedia.org/wiki/Modal_share"
+    },
+    "country": "Italy",
+    "streets": {
+      "longestStreets": [
+        {
+          "length": 71637.6,
+          "name": "Via Cristoforo Colombo",
+          "id": 4415
+        },
+        {
+          "length": 32467.83,
+          "name": "Via Laurentina",
+          "id": 7529
+        },
+        {
+          "length": 29042.94,
+          "name": "Via Ostiense",
+          "id": 9287
+        },
+        {
+          "length": 28650.8,
+          "name": "Via Appia Nuova",
+          "id": 2274
+        },
+        {
+          "length": 27995.1,
+          "name": "Via Salaria",
+          "id": 10661
+        },
+        {
+          "length": 27546.91,
+          "name": "Via Casilina",
+          "id": 3704
+        },
+        {
+          "length": 26755.49,
+          "name": "Via Tuscolana",
+          "id": 11758
+        },
+        {
+          "length": 26743.23,
+          "name": "Viale Palmiro Togliatti",
+          "id": 14457
+        },
+        {
+          "length": 25470.73,
+          "name": "Via Tiburtina",
+          "id": 11515
+        },
+        {
+          "length": 25005.06,
+          "name": "Via Nomentana",
+          "id": 9105
+        }
+      ],
+      "longestNames": [
+        "Viale dei Caduti nella Guerra di Liberazione",
+        "Lungotevere Grande Ammiraglio Thaon di Revel",
+        "Piazza Santa Maria Josefa del Cuore di Gesù"
+      ],
+      "staffPicks": [
+        "",
+        "",
+        ""
+      ]
+    },
+    "modalsplit": {
+      "foot": 0.07,
+      "car": 0.68,
+      "bike": 0,
+      "public": 0.24
+    },
+    "landmark": {
+      "name": "Roman Forum",
+      "area": 759106
+    },
+    "moving": {
+      "car": {
+        "length": 6186870,
+        "svgHeight": 63467,
+        "area": 37829121
+      },
+      "bike": {
+        "length": 171377,
+        "svgHeight": 1188,
+        "area": 688914
+      },
+      "rail": {
+        "length": 745477,
+        "svgHeight": 6251,
+        "area": 3947237
+      }
+    },
+    "cars": 1804749,
+    "boundingBox": [
+      41.8029,
+      12.3753,
+      41.9918,
+      12.6226
+    ],
+    "parking": {
+      "car": {
+        "offStreet": {
+          "number": 2338,
+          "svgHeight": 8655,
+          "area": 5068537.63
+        },
+        "onStreet": {
+          "number": null
+        }
+      },
+      "bike": {
+        "number": 105,
+        "svgHeight": 11.56,
+        "area": 1466.8
+      },
+      "rail": {
+        "length": 255102,
+        "svgHeight": 2169,
+        "area": 1284562
+      }
+    },
+    "population": 2627000,
+    "space": {
+      "car": 42897658.63,
+      "bike": 690380.8,
+      "rail": 5231799
+    }
+  }
+}

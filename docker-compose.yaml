@@ -1,0 +1,76 @@
+version: "3"
+
+volumes:
+  conf:
+  vhost:
+  html:
+  dhparam:
+  certs:
+  acme:
+
+services:
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - ./vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - dhparam:/etc/nginx/dhparam
+      - certs:/etc/nginx/certs:ro
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+  acme-companion:
+    image: nginxproxy/acme-companion
+    volumes_from:
+      - nginx-proxy
+    volumes:
+      - certs:/etc/nginx/certs:rw
+      - acme:/etc/acme.sh
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+
+  ##################################################
+  #                WTS Services                    #
+  ##################################################
+
+  frontend:
+    container_name: frontend
+    image: movelabarchive/wts:latest
+    restart: always
+    environment:
+      NODE_ENV: production
+      MONGODB_URL: mongodb://mongo:27017
+      MONGODB_USER: mongoadmin
+      MONGODB_PASSWORD: <MONGODB_PW>
+      S3_GIF_BUCKET: https://gifgallery.whatthestreet.com
+      MAPBOX_ACCESS_TOKEN: <MAPBOX_TOKEN>
+      VIRTUAL_PORT: 80
+      VIRTUAL_HOST: whatthestreet.com
+      LETSENCRYPT_HOST: whatthestreet.com
+    depends_on:
+      - mongo
+      - gifgallery
+  gifgallery:
+    container_name: gifgallery
+    image: nginx:alpine
+    restart: always
+    environment:
+      VIRTUAL_HOST: gifgallery.whatthestreet.com
+      LETSENCRYPT_HOST: gifgallery.whatthestreet.com
+    volumes:
+      - ./data/gifgallery:/usr/share/nginx/html
+      - ./nginx_gifgallery.conf:/etc/nginx/nginx.conf
+  mongo:
+    container_name: mongo
+    image: mongo:5
+    restart: always
+    volumes:
+      - ./data/db:/data/db
+      - ./dump:/dump
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: <MONGODB_PW>
